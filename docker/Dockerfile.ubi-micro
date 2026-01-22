@@ -1,0 +1,3 @@
+FROM registry.access.redhat.com/ubi9/ubi-micro
+COPY target/*.jar /app.jar
+ENTRYPOINT ["/app.jar"]
