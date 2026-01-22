@@ -25,6 +25,8 @@ demo:poc-ubi-micro                            31.8  MB
 
 ## Trivy scans
 
+From date 22.1.2026
+
 ```bash
 echo "Scanning demo:poc-distroless"; echo "-----------------------------"; TRIVY_IMAGE_SOURCE=docker trivy image --quiet --severity CRITICAL,HIGH --ignore-unfixed demo:poc-distroless;
 Scanning demo:poc-distroless
